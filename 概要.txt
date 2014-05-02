@@ -1,0 +1,35 @@
+labelタグと、
+ラジオボタンの:checked疑似セレクタを使用して、
+絵と文章の入ったlabelをクリックまたはenterで切り替えていく。
+→入れ子構造になりそう？
+
+--------------------------
+→入れ子にならずにできた！
+
+「:checked +」セレクターを使用して、
+下記のような構造のラジオボタン直後の
+あらかじめhiddenにしていた要素をblockにする。
+labelなので自然にcheckd状態にできる。
+
+<input radio checked>
+<label>
+<input radio>
+<label>
+
+選択肢の場合は以下の通り。
+メインの流れを制御するラジオボタン群と
+選択肢の制御するラジオボタン群をわける。
+<input radio>
+<div>
+ <label>
+ <input radio>
+ <div>
+  <label>
+  <label>
+  <label>
+<input>
+<label>
+<input>
+<label>
+<input>
+<label>
