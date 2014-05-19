@@ -3,8 +3,8 @@
 /*構成要素-------*/
 
 .pazzle {
-  width: 300px;
-  height: 300px;
+  width: 456px;
+  height: 306px;
   margin: 25px auto;
   background-color: #bbb;
   position: relative;
@@ -21,20 +21,28 @@
 .pazzle .labels {
   position: absolute;
   display: none;
-  width: 100px;
-  height: 100px;
+  width: 152px;
+  height: 102px;
   line-height: 20px;
   text-align: center;
   font-size: 10px;
   color: #fff;
+  background: #fff;
+  filter: alpha(opacity=0);
+  opacity: 0;
   vertical-align: middle;
   z-index: 5;
 }
 
+.pazzle .labels:hover {
+  filter: alpha(opacity=0.5);
+  opacity: 0.5;
+}
+
 .pazzle .pieces {
   position: absolute;
-  width: 98px;
-  height: 98px;
+  width: 150px;
+  height: 100px;
   line-height: 100px;
   text-align: center;
   vertical-align: middle;
@@ -44,6 +52,10 @@
   border: 1px #bbb solid;
   background-color: #999;
   z-index: 10;
+  -webkit-transition : 0.3s ease ;
+  transition : 0.3s ease ;
+  -webkit-transition-property: top left;
+  transition-property: top left;
 }
 
 .pazzle #pie1-pl1:checked ~ [id^="pie1"],
@@ -67,7 +79,7 @@
 .pazzle #pie7-pl2:checked ~ [id^="pie7"],
 .pazzle #pie8-pl2:checked ~ [id^="pie8"] {
   top: 0;
-  left: 100px;
+  left: 152px;
 }
 
 .pazzle #pie1-pl3:checked ~ [id^="pie1"],
@@ -79,7 +91,7 @@
 .pazzle #pie7-pl3:checked ~ [id^="pie7"],
 .pazzle #pie8-pl3:checked ~ [id^="pie8"] {
   top: 0;
-  left: 200px;
+  left: 304px;
 }
 
 .pazzle #pie1-pl4:checked ~ [id^="pie1"],
@@ -90,7 +102,7 @@
 .pazzle #pie6-pl4:checked ~ [id^="pie6"],
 .pazzle #pie7-pl4:checked ~ [id^="pie7"],
 .pazzle #pie8-pl4:checked ~ [id^="pie8"] {
-  top: 100px;
+  top: 102px;
   left: 0;
 }
 
@@ -102,8 +114,8 @@
 .pazzle #pie6-pl5:checked ~ [id^="pie6"],
 .pazzle #pie7-pl5:checked ~ [id^="pie7"],
 .pazzle #pie8-pl5:checked ~ [id^="pie8"] {
-  top: 100px;
-  left: 100px;
+  top: 102px;
+  left: 152px;
 }
 
 .pazzle #pie1-pl6:checked ~ [id^="pie1"],
@@ -114,8 +126,8 @@
 .pazzle #pie6-pl6:checked ~ [id^="pie6"],
 .pazzle #pie7-pl6:checked ~ [id^="pie7"],
 .pazzle #pie8-pl6:checked ~ [id^="pie8"] {
-  top: 100px;
-  left: 200px;
+  top: 102px;
+  left: 304px;
 }
 
 .pazzle #pie1-pl7:checked ~ [id^="pie1"],
@@ -126,7 +138,7 @@
 .pazzle #pie6-pl7:checked ~ [id^="pie6"],
 .pazzle #pie7-pl7:checked ~ [id^="pie7"],
 .pazzle #pie8-pl7:checked ~ [id^="pie8"] {
-  top: 200px;
+  top: 204px;
   left: 0;
 }
 
@@ -138,8 +150,8 @@
 .pazzle #pie6-pl8:checked ~ [id^="pie6"],
 .pazzle #pie7-pl8:checked ~ [id^="pie7"],
 .pazzle #pie8-pl8:checked ~ [id^="pie8"] {
-  top: 200px;
-  left: 100px;
+  top: 204px;
+  left: 152px;
 }
 
 .pazzle #pie1-pl9:checked ~ [id^="pie1"],
@@ -150,8 +162,8 @@
 .pazzle #pie6-pl9:checked ~ [id^="pie6"],
 .pazzle #pie7-pl9:checked ~ [id^="pie7"],
 .pazzle #pie8-pl9:checked ~ [id^="pie8"] {
-  top: 200px;
-  left: 200px;
+  top: 204px;
+  left: 304px;
 }
 
 .pazzle #pie1-pl1:checked ~ #pie1-topl2,
@@ -188,7 +200,7 @@
 .pazzle #pie5-pl2:checked ~ #pie5-topl3,
 .pazzle #pie6-pl2:checked ~ #pie6-topl3,
 .pazzle #pie7-pl2:checked ~ #pie7-topl3,
-.pazzle #pie8-pl2:checked ~ #pie8-topl3
+.pazzle #pie8-pl2:checked ~ #pie8-topl3,
 
 .pazzle #pie1-pl2:checked ~ #pie1-topl5,
 .pazzle #pie2-pl2:checked ~ #pie2-topl5,
@@ -474,13 +486,14 @@
   display: none;
 }
 
-.pazzle #pie1-pl1:checked ~
-.pazzle #pie2-pl2:checked ~
-.pazzle #pie3-pl3:checked ~
-.pazzle #pie4-pl4:checked ~
-.pazzle #pie5-pl5:checked ~
-.pazzle #pie6-pl6:checked ~
-.pazzle #pie7-pl7:checked ~
-.pazzle #pie8-pl8:checked ~ #panel-complate {
+#pie1-pl1:checked ~
+#pie2-pl2:checked ~
+#pie3-pl3:checked ~
+#pie4-pl4:checked ~
+#pie5-pl5:checked ~
+#pie6-pl6:checked ~
+#pie7-pl8:checked ~
+#pie8-pl9:checked ~ #panel-complate {
   display: block;
+  background-color: rgba(255, 255, 255, 0.2);
 }
