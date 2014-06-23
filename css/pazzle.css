@@ -47,7 +47,7 @@
   text-align: center;
   vertical-align: middle;
   font-size: 25px;
-  color: #fff;
+  color: #bbb;
   font-weight: bold;
   border: 1px #bbb solid;
   background-color: #999;
@@ -57,7 +57,7 @@
   -webkit-transition-property: top left;
   transition-property: top left;
 }
-
+  
 .pazzle #pie1-pl1:checked ~ [id^="pie1"],
 .pazzle #pie2-pl1:checked ~ [id^="pie2"],
 .pazzle #pie3-pl1:checked ~ [id^="pie3"],
@@ -467,6 +467,7 @@
   z-index: 20;
 }
 
+/*panels---*/
 
 .pazzle #panel-start,
 .pazzle #panel-complate{
@@ -496,4 +497,42 @@
 #pie8-pl9:checked ~ #panel-complate {
   display: block;
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*images---*/
+
+.pazzle .pieces {
+  background: url(../images/catch.png);
+}
+
+.pazzle #pie1 {
+  background-position: 0 0;
+}
+
+.pazzle #pie2 {
+  background-position: -150px 0;
+}
+
+.pazzle #pie3 {
+  background-position: -300px 0;
+}
+
+.pazzle #pie4 {
+  background-position: 0 -100px;
+}
+
+.pazzle #pie5 {
+  background-position: -150px -100px;
+}
+
+.pazzle #pie6 {
+  background-position: -300px -100px;
+}
+
+.pazzle #pie7 {
+  background-position: -150px -200px;
+}
+
+.pazzle #pie8 {
+  background-position: -300px -200px;
 }
