@@ -80,8 +80,8 @@ body {
   z-index: 10;
   -webkit-transition : 0.3s ease ;
   transition : 0.3s ease ;
-  -webkit-transition-property: top left;
-  transition-property: top left;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
 }
   
 .pazzle #pie1-pl1:checked ~ [id^="pie1-"],
@@ -95,8 +95,8 @@ body {
 .pazzle #pie9-pl1:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl1:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl1:checked ~ [id^="pie11-"] {
-  top: 0;
-  left: 0;
+  -webkit-transform: translate3d(0 ,0 ,0);
+  transform: translate3d(0 ,0 ,0);
 }
 
 .pazzle #pie1-pl2:checked ~ [id^="pie1-"],
@@ -110,8 +110,8 @@ body {
 .pazzle #pie9-pl2:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl2:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl2:checked ~ [id^="pie11-"] {
-  top: 0;
-  left: 152px;
+  -webkit-transform: translate3d(152px ,0 ,0);
+  transform: translate3d(152px ,0 ,0);
 }
 
 .pazzle #pie1-pl3:checked ~ [id^="pie1-"],
@@ -125,8 +125,8 @@ body {
 .pazzle #pie9-pl3:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl3:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl3:checked ~ [id^="pie11-"] {
-  top: 0;
-  left: 304px;
+  -webkit-transform: translate3d(304px ,0 ,0);
+  transform: translate3d(304px ,0 ,0);
 }
 
 .pazzle #pie1-pl4:checked ~ [id^="pie1-"],
@@ -140,8 +140,8 @@ body {
 .pazzle #pie9-pl4:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl4:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl4:checked ~ [id^="pie11-"] {
-  top: 0;
-  left: 456px;
+  -webkit-transform: translate3d(456px ,0 ,0);
+  transform: translate3d(456px ,0 ,0);
 }
 
 .pazzle #pie1-pl5:checked ~ [id^="pie1-"],
@@ -155,8 +155,8 @@ body {
 .pazzle #pie9-pl5:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl5:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl5:checked ~ [id^="pie11-"] {
-  top: 102px;
-  left: 0;
+  -webkit-transform: translate3d(0 ,102px ,0);
+  transform: translate3d(0 ,102px ,0);
 }
 
 .pazzle #pie1-pl6:checked ~ [id^="pie1-"],
@@ -170,8 +170,8 @@ body {
 .pazzle #pie9-pl6:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl6:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl6:checked ~ [id^="pie11-"] {
-  top: 102px;
-  left: 152px;
+  -webkit-transform: translate3d(152px ,102px ,0);
+  transform: translate3d(152px ,102px ,0);
 }
 
 .pazzle #pie1-pl7:checked ~ [id^="pie1-"],
@@ -185,8 +185,8 @@ body {
 .pazzle #pie9-pl7:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl7:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl7:checked ~ [id^="pie11-"] {
-  top: 102px;
-  left: 304px;
+  -webkit-transform: translate3d(304px ,102px ,0);
+  transform: translate3d(304px ,102px ,0);
 }
 
 .pazzle #pie1-pl8:checked ~ [id^="pie1-"],
@@ -200,8 +200,8 @@ body {
 .pazzle #pie9-pl8:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl8:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl8:checked ~ [id^="pie11-"] {
-  top: 102px;
-  left: 456px;
+  -webkit-transform: translate3d(456px ,102px ,0);
+  transform: translate3d(456px ,102px ,0);
 }
 
 .pazzle #pie1-pl9:checked ~ [id^="pie1-"],
@@ -215,8 +215,8 @@ body {
 .pazzle #pie9-pl9:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl9:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl9:checked ~ [id^="pie11-"] {
-  top: 204px;
-  left: 0;
+  -webkit-transform: translate3d(0 ,204px ,0);
+  transform: translate3d(0 ,204px ,0);
 }
   
 .pazzle #pie1-pl10:checked ~ [id^="pie1-"],
@@ -230,8 +230,8 @@ body {
 .pazzle #pie9-pl10:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl10:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl10:checked ~ [id^="pie11-"] {
-  top: 204px;
-  left: 152px;
+  -webkit-transform: translate3d(152px ,204px ,0);
+  transform: translate3d(152px ,204px ,0);
 }
   
 .pazzle #pie1-pl11:checked ~ [id^="pie1-"],
@@ -245,8 +245,8 @@ body {
 .pazzle #pie9-pl11:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl11:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl11:checked ~ [id^="pie11-"] {
-  top: 204px;
-  left: 304px;
+  -webkit-transform: translate3d(304px ,204px ,0);
+  transform: translate3d(304px ,204px ,0);
 }
   
 .pazzle #pie1-pl12:checked ~ [id^="pie1-"],
@@ -260,8 +260,8 @@ body {
 .pazzle #pie9-pl12:checked ~ [id^="pie9-"],
 .pazzle #pie10-pl12:checked ~ [id^="pie10-"],
 .pazzle #pie11-pl12:checked ~ [id^="pie11-"] {
-  top: 204px;
-  left: 456px;
+  -webkit-transform: translate3d(456px ,204px ,0);
+  transform: translate3d(456px ,204px ,0);
 }
 
 .pazzle #pie1-pl1:checked ~ #pie1-topl2,
