@@ -15,7 +15,9 @@
 }
 
 .pazzle .radio-btns {
-  display: none;
+  /*display: none;*/
+  position:relative;
+  left:-500px;
 }
 
 .pazzle .labels {
@@ -57,413 +59,413 @@
   -webkit-transition-property: top left;
   transition-property: top left;
 }
-  
-.pazzle #pie1-pl1:checked ~ [id^="pie1"],
-.pazzle #pie2-pl1:checked ~ [id^="pie2"],
-.pazzle #pie3-pl1:checked ~ [id^="pie3"],
-.pazzle #pie4-pl1:checked ~ [id^="pie4"],
-.pazzle #pie5-pl1:checked ~ [id^="pie5"],
-.pazzle #pie6-pl1:checked ~ [id^="pie6"],
-.pazzle #pie7-pl1:checked ~ [id^="pie7"],
-.pazzle #pie8-pl1:checked ~ [id^="pie8"] {
+
+.pazzle #pie1_pl1:checked ~ [id^="pie1-"],
+.pazzle #pie2_pl1:checked ~ [id^="pie2-"],
+.pazzle #pie3_pl1:checked ~ [id^="pie3-"],
+.pazzle #pie4_pl1:checked ~ [id^="pie4-"],
+.pazzle #pie5_pl1:checked ~ [id^="pie5-"],
+.pazzle #pie6_pl1:checked ~ [id^="pie6-"],
+.pazzle #pie7_pl1:checked ~ [id^="pie7-"],
+.pazzle #pie8_pl1:checked ~ [id^="pie8-"] {
   top: 0;
   left: 0;
 }
 
-.pazzle #pie1-pl2:checked ~ [id^="pie1"],
-.pazzle #pie2-pl2:checked ~ [id^="pie2"],
-.pazzle #pie3-pl2:checked ~ [id^="pie3"],
-.pazzle #pie4-pl2:checked ~ [id^="pie4"],
-.pazzle #pie5-pl2:checked ~ [id^="pie5"],
-.pazzle #pie6-pl2:checked ~ [id^="pie6"],
-.pazzle #pie7-pl2:checked ~ [id^="pie7"],
-.pazzle #pie8-pl2:checked ~ [id^="pie8"] {
+.pazzle #pie1_pl2:checked ~ [id^="pie1-"],
+.pazzle #pie2_pl2:checked ~ [id^="pie2-"],
+.pazzle #pie3_pl2:checked ~ [id^="pie3-"],
+.pazzle #pie4_pl2:checked ~ [id^="pie4-"],
+.pazzle #pie5_pl2:checked ~ [id^="pie5-"],
+.pazzle #pie6_pl2:checked ~ [id^="pie6-"],
+.pazzle #pie7_pl2:checked ~ [id^="pie7-"],
+.pazzle #pie8_pl2:checked ~ [id^="pie8-"] {
   top: 0;
   left: 152px;
 }
 
-.pazzle #pie1-pl3:checked ~ [id^="pie1"],
-.pazzle #pie2-pl3:checked ~ [id^="pie2"],
-.pazzle #pie3-pl3:checked ~ [id^="pie3"],
-.pazzle #pie4-pl3:checked ~ [id^="pie4"],
-.pazzle #pie5-pl3:checked ~ [id^="pie5"],
-.pazzle #pie6-pl3:checked ~ [id^="pie6"],
-.pazzle #pie7-pl3:checked ~ [id^="pie7"],
-.pazzle #pie8-pl3:checked ~ [id^="pie8"] {
+.pazzle #pie1_pl3:checked ~ [id^="pie1-"],
+.pazzle #pie2_pl3:checked ~ [id^="pie2-"],
+.pazzle #pie3_pl3:checked ~ [id^="pie3-"],
+.pazzle #pie4_pl3:checked ~ [id^="pie4-"],
+.pazzle #pie5_pl3:checked ~ [id^="pie5-"],
+.pazzle #pie6_pl3:checked ~ [id^="pie6-"],
+.pazzle #pie7_pl3:checked ~ [id^="pie7-"],
+.pazzle #pie8_pl3:checked ~ [id^="pie8-"] {
   top: 0;
   left: 304px;
 }
 
-.pazzle #pie1-pl4:checked ~ [id^="pie1"],
-.pazzle #pie2-pl4:checked ~ [id^="pie2"],
-.pazzle #pie3-pl4:checked ~ [id^="pie3"],
-.pazzle #pie4-pl4:checked ~ [id^="pie4"],
-.pazzle #pie5-pl4:checked ~ [id^="pie5"],
-.pazzle #pie6-pl4:checked ~ [id^="pie6"],
-.pazzle #pie7-pl4:checked ~ [id^="pie7"],
-.pazzle #pie8-pl4:checked ~ [id^="pie8"] {
+.pazzle #pie1_pl4:checked ~ [id^="pie1-"],
+.pazzle #pie2_pl4:checked ~ [id^="pie2-"],
+.pazzle #pie3_pl4:checked ~ [id^="pie3-"],
+.pazzle #pie4_pl4:checked ~ [id^="pie4-"],
+.pazzle #pie5_pl4:checked ~ [id^="pie5-"],
+.pazzle #pie6_pl4:checked ~ [id^="pie6-"],
+.pazzle #pie7_pl4:checked ~ [id^="pie7-"],
+.pazzle #pie8_pl4:checked ~ [id^="pie8-"] {
   top: 102px;
   left: 0;
 }
 
-.pazzle #pie1-pl5:checked ~ [id^="pie1"],
-.pazzle #pie2-pl5:checked ~ [id^="pie2"],
-.pazzle #pie3-pl5:checked ~ [id^="pie3"],
-.pazzle #pie4-pl5:checked ~ [id^="pie4"],
-.pazzle #pie5-pl5:checked ~ [id^="pie5"],
-.pazzle #pie6-pl5:checked ~ [id^="pie6"],
-.pazzle #pie7-pl5:checked ~ [id^="pie7"],
-.pazzle #pie8-pl5:checked ~ [id^="pie8"] {
+.pazzle #pie1_pl5:checked ~ [id^="pie1-"],
+.pazzle #pie2_pl5:checked ~ [id^="pie2-"],
+.pazzle #pie3_pl5:checked ~ [id^="pie3-"],
+.pazzle #pie4_pl5:checked ~ [id^="pie4-"],
+.pazzle #pie5_pl5:checked ~ [id^="pie5-"],
+.pazzle #pie6_pl5:checked ~ [id^="pie6-"],
+.pazzle #pie7_pl5:checked ~ [id^="pie7-"],
+.pazzle #pie8_pl5:checked ~ [id^="pie8-"] {
   top: 102px;
   left: 152px;
 }
 
-.pazzle #pie1-pl6:checked ~ [id^="pie1"],
-.pazzle #pie2-pl6:checked ~ [id^="pie2"],
-.pazzle #pie3-pl6:checked ~ [id^="pie3"],
-.pazzle #pie4-pl6:checked ~ [id^="pie4"],
-.pazzle #pie5-pl6:checked ~ [id^="pie5"],
-.pazzle #pie6-pl6:checked ~ [id^="pie6"],
-.pazzle #pie7-pl6:checked ~ [id^="pie7"],
-.pazzle #pie8-pl6:checked ~ [id^="pie8"] {
+.pazzle #pie1_pl6:checked ~ [id^="pie1-"],
+.pazzle #pie2_pl6:checked ~ [id^="pie2-"],
+.pazzle #pie3_pl6:checked ~ [id^="pie3-"],
+.pazzle #pie4_pl6:checked ~ [id^="pie4-"],
+.pazzle #pie5_pl6:checked ~ [id^="pie5-"],
+.pazzle #pie6_pl6:checked ~ [id^="pie6-"],
+.pazzle #pie7_pl6:checked ~ [id^="pie7-"],
+.pazzle #pie8_pl6:checked ~ [id^="pie8-"] {
   top: 102px;
   left: 304px;
 }
 
-.pazzle #pie1-pl7:checked ~ [id^="pie1"],
-.pazzle #pie2-pl7:checked ~ [id^="pie2"],
-.pazzle #pie3-pl7:checked ~ [id^="pie3"],
-.pazzle #pie4-pl7:checked ~ [id^="pie4"],
-.pazzle #pie5-pl7:checked ~ [id^="pie5"],
-.pazzle #pie6-pl7:checked ~ [id^="pie6"],
-.pazzle #pie7-pl7:checked ~ [id^="pie7"],
-.pazzle #pie8-pl7:checked ~ [id^="pie8"] {
+.pazzle #pie1_pl7:checked ~ [id^="pie1-"],
+.pazzle #pie2_pl7:checked ~ [id^="pie2-"],
+.pazzle #pie3_pl7:checked ~ [id^="pie3-"],
+.pazzle #pie4_pl7:checked ~ [id^="pie4-"],
+.pazzle #pie5_pl7:checked ~ [id^="pie5-"],
+.pazzle #pie6_pl7:checked ~ [id^="pie6-"],
+.pazzle #pie7_pl7:checked ~ [id^="pie7-"],
+.pazzle #pie8_pl7:checked ~ [id^="pie8-"] {
   top: 204px;
   left: 0;
 }
 
-.pazzle #pie1-pl8:checked ~ [id^="pie1"],
-.pazzle #pie2-pl8:checked ~ [id^="pie2"],
-.pazzle #pie3-pl8:checked ~ [id^="pie3"],
-.pazzle #pie4-pl8:checked ~ [id^="pie4"],
-.pazzle #pie5-pl8:checked ~ [id^="pie5"],
-.pazzle #pie6-pl8:checked ~ [id^="pie6"],
-.pazzle #pie7-pl8:checked ~ [id^="pie7"],
-.pazzle #pie8-pl8:checked ~ [id^="pie8"] {
+.pazzle #pie1_pl8:checked ~ [id^="pie1-"],
+.pazzle #pie2_pl8:checked ~ [id^="pie2-"],
+.pazzle #pie3_pl8:checked ~ [id^="pie3-"],
+.pazzle #pie4_pl8:checked ~ [id^="pie4-"],
+.pazzle #pie5_pl8:checked ~ [id^="pie5-"],
+.pazzle #pie6_pl8:checked ~ [id^="pie6-"],
+.pazzle #pie7_pl8:checked ~ [id^="pie7-"],
+.pazzle #pie8_pl8:checked ~ [id^="pie8-"] {
   top: 204px;
   left: 152px;
 }
 
-.pazzle #pie1-pl9:checked ~ [id^="pie1"],
-.pazzle #pie2-pl9:checked ~ [id^="pie2"],
-.pazzle #pie3-pl9:checked ~ [id^="pie3"],
-.pazzle #pie4-pl9:checked ~ [id^="pie4"],
-.pazzle #pie5-pl9:checked ~ [id^="pie5"],
-.pazzle #pie6-pl9:checked ~ [id^="pie6"],
-.pazzle #pie7-pl9:checked ~ [id^="pie7"],
-.pazzle #pie8-pl9:checked ~ [id^="pie8"] {
+.pazzle #pie1_pl9:checked ~ [id^="pie1-"],
+.pazzle #pie2_pl9:checked ~ [id^="pie2-"],
+.pazzle #pie3_pl9:checked ~ [id^="pie3-"],
+.pazzle #pie4_pl9:checked ~ [id^="pie4-"],
+.pazzle #pie5_pl9:checked ~ [id^="pie5-"],
+.pazzle #pie6_pl9:checked ~ [id^="pie6-"],
+.pazzle #pie7_pl9:checked ~ [id^="pie7-"],
+.pazzle #pie8_pl9:checked ~ [id^="pie8-"] {
   top: 204px;
   left: 304px;
 }
 
-.pazzle #pie1-pl1:checked ~ #pie1-topl2,
-.pazzle #pie2-pl1:checked ~ #pie2-topl2,
-.pazzle #pie3-pl1:checked ~ #pie3-topl2,
-.pazzle #pie4-pl1:checked ~ #pie4-topl2,
-.pazzle #pie5-pl1:checked ~ #pie5-topl2,
-.pazzle #pie6-pl1:checked ~ #pie6-topl2,
-.pazzle #pie7-pl1:checked ~ #pie7-topl2,
-.pazzle #pie8-pl1:checked ~ #pie8-topl2,
+.pazzle #pie1_pl1:checked ~ #pie1-topl2,
+.pazzle #pie2_pl1:checked ~ #pie2-topl2,
+.pazzle #pie3_pl1:checked ~ #pie3-topl2,
+.pazzle #pie4_pl1:checked ~ #pie4-topl2,
+.pazzle #pie5_pl1:checked ~ #pie5-topl2,
+.pazzle #pie6_pl1:checked ~ #pie6-topl2,
+.pazzle #pie7_pl1:checked ~ #pie7-topl2,
+.pazzle #pie8_pl1:checked ~ #pie8-topl2,
 
-.pazzle #pie1-pl1:checked ~ #pie1-topl4,
-.pazzle #pie2-pl1:checked ~ #pie2-topl4,
-.pazzle #pie3-pl1:checked ~ #pie3-topl4,
-.pazzle #pie4-pl1:checked ~ #pie4-topl4,
-.pazzle #pie5-pl1:checked ~ #pie5-topl4,
-.pazzle #pie6-pl1:checked ~ #pie6-topl4,
-.pazzle #pie7-pl1:checked ~ #pie7-topl4,
-.pazzle #pie8-pl1:checked ~ #pie8-topl4,
+.pazzle #pie1_pl1:checked ~ #pie1-topl4,
+.pazzle #pie2_pl1:checked ~ #pie2-topl4,
+.pazzle #pie3_pl1:checked ~ #pie3-topl4,
+.pazzle #pie4_pl1:checked ~ #pie4-topl4,
+.pazzle #pie5_pl1:checked ~ #pie5-topl4,
+.pazzle #pie6_pl1:checked ~ #pie6-topl4,
+.pazzle #pie7_pl1:checked ~ #pie7-topl4,
+.pazzle #pie8_pl1:checked ~ #pie8-topl4,
 
-.pazzle #pie1-pl2:checked ~ #pie1-topl1,
-.pazzle #pie2-pl2:checked ~ #pie2-topl1,
-.pazzle #pie3-pl2:checked ~ #pie3-topl1,
-.pazzle #pie4-pl2:checked ~ #pie4-topl1,
-.pazzle #pie5-pl2:checked ~ #pie5-topl1,
-.pazzle #pie6-pl2:checked ~ #pie6-topl1,
-.pazzle #pie7-pl2:checked ~ #pie7-topl1,
-.pazzle #pie8-pl2:checked ~ #pie8-topl1,
+.pazzle #pie1_pl2:checked ~ #pie1-topl1,
+.pazzle #pie2_pl2:checked ~ #pie2-topl1,
+.pazzle #pie3_pl2:checked ~ #pie3-topl1,
+.pazzle #pie4_pl2:checked ~ #pie4-topl1,
+.pazzle #pie5_pl2:checked ~ #pie5-topl1,
+.pazzle #pie6_pl2:checked ~ #pie6-topl1,
+.pazzle #pie7_pl2:checked ~ #pie7-topl1,
+.pazzle #pie8_pl2:checked ~ #pie8-topl1,
 
-.pazzle #pie1-pl2:checked ~ #pie1-topl3,
-.pazzle #pie2-pl2:checked ~ #pie2-topl3,
-.pazzle #pie3-pl2:checked ~ #pie3-topl3,
-.pazzle #pie4-pl2:checked ~ #pie4-topl3,
-.pazzle #pie5-pl2:checked ~ #pie5-topl3,
-.pazzle #pie6-pl2:checked ~ #pie6-topl3,
-.pazzle #pie7-pl2:checked ~ #pie7-topl3,
-.pazzle #pie8-pl2:checked ~ #pie8-topl3,
+.pazzle #pie1_pl2:checked ~ #pie1-topl3,
+.pazzle #pie2_pl2:checked ~ #pie2-topl3,
+.pazzle #pie3_pl2:checked ~ #pie3-topl3,
+.pazzle #pie4_pl2:checked ~ #pie4-topl3,
+.pazzle #pie5_pl2:checked ~ #pie5-topl3,
+.pazzle #pie6_pl2:checked ~ #pie6-topl3,
+.pazzle #pie7_pl2:checked ~ #pie7-topl3,
+.pazzle #pie8_pl2:checked ~ #pie8-topl3,
 
-.pazzle #pie1-pl2:checked ~ #pie1-topl5,
-.pazzle #pie2-pl2:checked ~ #pie2-topl5,
-.pazzle #pie3-pl2:checked ~ #pie3-topl5,
-.pazzle #pie4-pl2:checked ~ #pie4-topl5,
-.pazzle #pie5-pl2:checked ~ #pie5-topl5,
-.pazzle #pie6-pl2:checked ~ #pie6-topl5,
-.pazzle #pie7-pl2:checked ~ #pie7-topl5,
-.pazzle #pie8-pl2:checked ~ #pie8-topl5,
+.pazzle #pie1_pl2:checked ~ #pie1-topl5,
+.pazzle #pie2_pl2:checked ~ #pie2-topl5,
+.pazzle #pie3_pl2:checked ~ #pie3-topl5,
+.pazzle #pie4_pl2:checked ~ #pie4-topl5,
+.pazzle #pie5_pl2:checked ~ #pie5-topl5,
+.pazzle #pie6_pl2:checked ~ #pie6-topl5,
+.pazzle #pie7_pl2:checked ~ #pie7-topl5,
+.pazzle #pie8_pl2:checked ~ #pie8-topl5,
 
-.pazzle #pie1-pl3:checked ~ #pie1-topl2,
-.pazzle #pie2-pl3:checked ~ #pie2-topl2,
-.pazzle #pie3-pl3:checked ~ #pie3-topl2,
-.pazzle #pie4-pl3:checked ~ #pie4-topl2,
-.pazzle #pie5-pl3:checked ~ #pie5-topl2,
-.pazzle #pie6-pl3:checked ~ #pie6-topl2,
-.pazzle #pie7-pl3:checked ~ #pie7-topl2,
-.pazzle #pie8-pl3:checked ~ #pie8-topl2,
+.pazzle #pie1_pl3:checked ~ #pie1-topl2,
+.pazzle #pie2_pl3:checked ~ #pie2-topl2,
+.pazzle #pie3_pl3:checked ~ #pie3-topl2,
+.pazzle #pie4_pl3:checked ~ #pie4-topl2,
+.pazzle #pie5_pl3:checked ~ #pie5-topl2,
+.pazzle #pie6_pl3:checked ~ #pie6-topl2,
+.pazzle #pie7_pl3:checked ~ #pie7-topl2,
+.pazzle #pie8_pl3:checked ~ #pie8-topl2,
 
-.pazzle #pie1-pl3:checked ~ #pie1-topl6,
-.pazzle #pie2-pl3:checked ~ #pie2-topl6,
-.pazzle #pie3-pl3:checked ~ #pie3-topl6,
-.pazzle #pie4-pl3:checked ~ #pie4-topl6,
-.pazzle #pie5-pl3:checked ~ #pie5-topl6,
-.pazzle #pie6-pl3:checked ~ #pie6-topl6,
-.pazzle #pie7-pl3:checked ~ #pie7-topl6,
-.pazzle #pie8-pl3:checked ~ #pie8-topl6,
+.pazzle #pie1_pl3:checked ~ #pie1-topl6,
+.pazzle #pie2_pl3:checked ~ #pie2-topl6,
+.pazzle #pie3_pl3:checked ~ #pie3-topl6,
+.pazzle #pie4_pl3:checked ~ #pie4-topl6,
+.pazzle #pie5_pl3:checked ~ #pie5-topl6,
+.pazzle #pie6_pl3:checked ~ #pie6-topl6,
+.pazzle #pie7_pl3:checked ~ #pie7-topl6,
+.pazzle #pie8_pl3:checked ~ #pie8-topl6,
 
-.pazzle #pie1-pl4:checked ~ #pie1-topl1,
-.pazzle #pie2-pl4:checked ~ #pie2-topl1,
-.pazzle #pie3-pl4:checked ~ #pie3-topl1,
-.pazzle #pie4-pl4:checked ~ #pie4-topl1,
-.pazzle #pie5-pl4:checked ~ #pie5-topl1,
-.pazzle #pie6-pl4:checked ~ #pie6-topl1,
-.pazzle #pie7-pl4:checked ~ #pie7-topl1,
-.pazzle #pie8-pl4:checked ~ #pie8-topl1,
+.pazzle #pie1_pl4:checked ~ #pie1-topl1,
+.pazzle #pie2_pl4:checked ~ #pie2-topl1,
+.pazzle #pie3_pl4:checked ~ #pie3-topl1,
+.pazzle #pie4_pl4:checked ~ #pie4-topl1,
+.pazzle #pie5_pl4:checked ~ #pie5-topl1,
+.pazzle #pie6_pl4:checked ~ #pie6-topl1,
+.pazzle #pie7_pl4:checked ~ #pie7-topl1,
+.pazzle #pie8_pl4:checked ~ #pie8-topl1,
 
-.pazzle #pie1-pl4:checked ~ #pie1-topl5,
-.pazzle #pie2-pl4:checked ~ #pie2-topl5,
-.pazzle #pie3-pl4:checked ~ #pie3-topl5,
-.pazzle #pie4-pl4:checked ~ #pie4-topl5,
-.pazzle #pie5-pl4:checked ~ #pie5-topl5,
-.pazzle #pie6-pl4:checked ~ #pie6-topl5,
-.pazzle #pie7-pl4:checked ~ #pie7-topl5,
-.pazzle #pie8-pl4:checked ~ #pie8-topl5,
+.pazzle #pie1_pl4:checked ~ #pie1-topl5,
+.pazzle #pie2_pl4:checked ~ #pie2-topl5,
+.pazzle #pie3_pl4:checked ~ #pie3-topl5,
+.pazzle #pie4_pl4:checked ~ #pie4-topl5,
+.pazzle #pie5_pl4:checked ~ #pie5-topl5,
+.pazzle #pie6_pl4:checked ~ #pie6-topl5,
+.pazzle #pie7_pl4:checked ~ #pie7-topl5,
+.pazzle #pie8_pl4:checked ~ #pie8-topl5,
 
-.pazzle #pie1-pl4:checked ~ #pie1-topl7,
-.pazzle #pie2-pl4:checked ~ #pie2-topl7,
-.pazzle #pie3-pl4:checked ~ #pie3-topl7,
-.pazzle #pie4-pl4:checked ~ #pie4-topl7,
-.pazzle #pie5-pl4:checked ~ #pie5-topl7,
-.pazzle #pie6-pl4:checked ~ #pie6-topl7,
-.pazzle #pie7-pl4:checked ~ #pie7-topl7,
-.pazzle #pie8-pl4:checked ~ #pie8-topl7,
+.pazzle #pie1_pl4:checked ~ #pie1-topl7,
+.pazzle #pie2_pl4:checked ~ #pie2-topl7,
+.pazzle #pie3_pl4:checked ~ #pie3-topl7,
+.pazzle #pie4_pl4:checked ~ #pie4-topl7,
+.pazzle #pie5_pl4:checked ~ #pie5-topl7,
+.pazzle #pie6_pl4:checked ~ #pie6-topl7,
+.pazzle #pie7_pl4:checked ~ #pie7-topl7,
+.pazzle #pie8_pl4:checked ~ #pie8-topl7,
 
-.pazzle #pie1-pl5:checked ~ #pie1-topl2,
-.pazzle #pie2-pl5:checked ~ #pie2-topl2,
-.pazzle #pie3-pl5:checked ~ #pie3-topl2,
-.pazzle #pie4-pl5:checked ~ #pie4-topl2,
-.pazzle #pie5-pl5:checked ~ #pie5-topl2,
-.pazzle #pie6-pl5:checked ~ #pie6-topl2,
-.pazzle #pie7-pl5:checked ~ #pie7-topl2,
-.pazzle #pie8-pl5:checked ~ #pie8-topl2,
+.pazzle #pie1_pl5:checked ~ #pie1-topl2,
+.pazzle #pie2_pl5:checked ~ #pie2-topl2,
+.pazzle #pie3_pl5:checked ~ #pie3-topl2,
+.pazzle #pie4_pl5:checked ~ #pie4-topl2,
+.pazzle #pie5_pl5:checked ~ #pie5-topl2,
+.pazzle #pie6_pl5:checked ~ #pie6-topl2,
+.pazzle #pie7_pl5:checked ~ #pie7-topl2,
+.pazzle #pie8_pl5:checked ~ #pie8-topl2,
 
-.pazzle #pie1-pl5:checked ~ #pie1-topl4,
-.pazzle #pie2-pl5:checked ~ #pie2-topl4,
-.pazzle #pie3-pl5:checked ~ #pie3-topl4,
-.pazzle #pie4-pl5:checked ~ #pie4-topl4,
-.pazzle #pie5-pl5:checked ~ #pie5-topl4,
-.pazzle #pie6-pl5:checked ~ #pie6-topl4,
-.pazzle #pie7-pl5:checked ~ #pie7-topl4,
-.pazzle #pie8-pl5:checked ~ #pie8-topl4,
+.pazzle #pie1_pl5:checked ~ #pie1-topl4,
+.pazzle #pie2_pl5:checked ~ #pie2-topl4,
+.pazzle #pie3_pl5:checked ~ #pie3-topl4,
+.pazzle #pie4_pl5:checked ~ #pie4-topl4,
+.pazzle #pie5_pl5:checked ~ #pie5-topl4,
+.pazzle #pie6_pl5:checked ~ #pie6-topl4,
+.pazzle #pie7_pl5:checked ~ #pie7-topl4,
+.pazzle #pie8_pl5:checked ~ #pie8-topl4,
 
-.pazzle #pie1-pl5:checked ~ #pie1-topl6,
-.pazzle #pie2-pl5:checked ~ #pie2-topl6,
-.pazzle #pie3-pl5:checked ~ #pie3-topl6,
-.pazzle #pie4-pl5:checked ~ #pie4-topl6,
-.pazzle #pie5-pl5:checked ~ #pie5-topl6,
-.pazzle #pie6-pl5:checked ~ #pie6-topl6,
-.pazzle #pie7-pl5:checked ~ #pie7-topl6,
-.pazzle #pie8-pl5:checked ~ #pie8-topl6,
+.pazzle #pie1_pl5:checked ~ #pie1-topl6,
+.pazzle #pie2_pl5:checked ~ #pie2-topl6,
+.pazzle #pie3_pl5:checked ~ #pie3-topl6,
+.pazzle #pie4_pl5:checked ~ #pie4-topl6,
+.pazzle #pie5_pl5:checked ~ #pie5-topl6,
+.pazzle #pie6_pl5:checked ~ #pie6-topl6,
+.pazzle #pie7_pl5:checked ~ #pie7-topl6,
+.pazzle #pie8_pl5:checked ~ #pie8-topl6,
 
-.pazzle #pie1-pl5:checked ~ #pie1-topl8,
-.pazzle #pie2-pl5:checked ~ #pie2-topl8,
-.pazzle #pie3-pl5:checked ~ #pie3-topl8,
-.pazzle #pie4-pl5:checked ~ #pie4-topl8,
-.pazzle #pie5-pl5:checked ~ #pie5-topl8,
-.pazzle #pie6-pl5:checked ~ #pie6-topl8,
-.pazzle #pie7-pl5:checked ~ #pie7-topl8,
-.pazzle #pie8-pl5:checked ~ #pie8-topl8,
+.pazzle #pie1_pl5:checked ~ #pie1-topl8,
+.pazzle #pie2_pl5:checked ~ #pie2-topl8,
+.pazzle #pie3_pl5:checked ~ #pie3-topl8,
+.pazzle #pie4_pl5:checked ~ #pie4-topl8,
+.pazzle #pie5_pl5:checked ~ #pie5-topl8,
+.pazzle #pie6_pl5:checked ~ #pie6-topl8,
+.pazzle #pie7_pl5:checked ~ #pie7-topl8,
+.pazzle #pie8_pl5:checked ~ #pie8-topl8,
 
-.pazzle #pie1-pl6:checked ~ #pie1-topl3,
-.pazzle #pie2-pl6:checked ~ #pie2-topl3,
-.pazzle #pie3-pl6:checked ~ #pie3-topl3,
-.pazzle #pie4-pl6:checked ~ #pie4-topl3,
-.pazzle #pie5-pl6:checked ~ #pie5-topl3,
-.pazzle #pie6-pl6:checked ~ #pie6-topl3,
-.pazzle #pie7-pl6:checked ~ #pie7-topl3,
-.pazzle #pie8-pl6:checked ~ #pie8-topl3,
+.pazzle #pie1_pl6:checked ~ #pie1-topl3,
+.pazzle #pie2_pl6:checked ~ #pie2-topl3,
+.pazzle #pie3_pl6:checked ~ #pie3-topl3,
+.pazzle #pie4_pl6:checked ~ #pie4-topl3,
+.pazzle #pie5_pl6:checked ~ #pie5-topl3,
+.pazzle #pie6_pl6:checked ~ #pie6-topl3,
+.pazzle #pie7_pl6:checked ~ #pie7-topl3,
+.pazzle #pie8_pl6:checked ~ #pie8-topl3,
 
-.pazzle #pie1-pl6:checked ~ #pie1-topl5,
-.pazzle #pie2-pl6:checked ~ #pie2-topl5,
-.pazzle #pie3-pl6:checked ~ #pie3-topl5,
-.pazzle #pie4-pl6:checked ~ #pie4-topl5,
-.pazzle #pie5-pl6:checked ~ #pie5-topl5,
-.pazzle #pie6-pl6:checked ~ #pie6-topl5,
-.pazzle #pie7-pl6:checked ~ #pie7-topl5,
-.pazzle #pie8-pl6:checked ~ #pie8-topl5,
+.pazzle #pie1_pl6:checked ~ #pie1-topl5,
+.pazzle #pie2_pl6:checked ~ #pie2-topl5,
+.pazzle #pie3_pl6:checked ~ #pie3-topl5,
+.pazzle #pie4_pl6:checked ~ #pie4-topl5,
+.pazzle #pie5_pl6:checked ~ #pie5-topl5,
+.pazzle #pie6_pl6:checked ~ #pie6-topl5,
+.pazzle #pie7_pl6:checked ~ #pie7-topl5,
+.pazzle #pie8_pl6:checked ~ #pie8-topl5,
 
-.pazzle #pie1-pl6:checked ~ #pie1-topl9,
-.pazzle #pie2-pl6:checked ~ #pie2-topl9,
-.pazzle #pie3-pl6:checked ~ #pie3-topl9,
-.pazzle #pie4-pl6:checked ~ #pie4-topl9,
-.pazzle #pie5-pl6:checked ~ #pie5-topl9,
-.pazzle #pie6-pl6:checked ~ #pie6-topl9,
-.pazzle #pie7-pl6:checked ~ #pie7-topl9,
-.pazzle #pie8-pl6:checked ~ #pie8-topl9,
+.pazzle #pie1_pl6:checked ~ #pie1-topl9,
+.pazzle #pie2_pl6:checked ~ #pie2-topl9,
+.pazzle #pie3_pl6:checked ~ #pie3-topl9,
+.pazzle #pie4_pl6:checked ~ #pie4-topl9,
+.pazzle #pie5_pl6:checked ~ #pie5-topl9,
+.pazzle #pie6_pl6:checked ~ #pie6-topl9,
+.pazzle #pie7_pl6:checked ~ #pie7-topl9,
+.pazzle #pie8_pl6:checked ~ #pie8-topl9,
 
-.pazzle #pie1-pl7:checked ~ #pie1-topl4,
-.pazzle #pie2-pl7:checked ~ #pie2-topl4,
-.pazzle #pie3-pl7:checked ~ #pie3-topl4,
-.pazzle #pie4-pl7:checked ~ #pie4-topl4,
-.pazzle #pie5-pl7:checked ~ #pie5-topl4,
-.pazzle #pie6-pl7:checked ~ #pie6-topl4,
-.pazzle #pie7-pl7:checked ~ #pie7-topl4,
-.pazzle #pie8-pl7:checked ~ #pie8-topl4,
+.pazzle #pie1_pl7:checked ~ #pie1-topl4,
+.pazzle #pie2_pl7:checked ~ #pie2-topl4,
+.pazzle #pie3_pl7:checked ~ #pie3-topl4,
+.pazzle #pie4_pl7:checked ~ #pie4-topl4,
+.pazzle #pie5_pl7:checked ~ #pie5-topl4,
+.pazzle #pie6_pl7:checked ~ #pie6-topl4,
+.pazzle #pie7_pl7:checked ~ #pie7-topl4,
+.pazzle #pie8_pl7:checked ~ #pie8-topl4,
 
-.pazzle #pie1-pl7:checked ~ #pie1-topl8,
-.pazzle #pie2-pl7:checked ~ #pie2-topl8,
-.pazzle #pie3-pl7:checked ~ #pie3-topl8,
-.pazzle #pie4-pl7:checked ~ #pie4-topl8,
-.pazzle #pie5-pl7:checked ~ #pie5-topl8,
-.pazzle #pie6-pl7:checked ~ #pie6-topl8,
-.pazzle #pie7-pl7:checked ~ #pie7-topl8,
-.pazzle #pie8-pl7:checked ~ #pie8-topl8,
+.pazzle #pie1_pl7:checked ~ #pie1-topl8,
+.pazzle #pie2_pl7:checked ~ #pie2-topl8,
+.pazzle #pie3_pl7:checked ~ #pie3-topl8,
+.pazzle #pie4_pl7:checked ~ #pie4-topl8,
+.pazzle #pie5_pl7:checked ~ #pie5-topl8,
+.pazzle #pie6_pl7:checked ~ #pie6-topl8,
+.pazzle #pie7_pl7:checked ~ #pie7-topl8,
+.pazzle #pie8_pl7:checked ~ #pie8-topl8,
 
-.pazzle #pie1-pl8:checked ~ #pie1-topl5,
-.pazzle #pie2-pl8:checked ~ #pie2-topl5,
-.pazzle #pie3-pl8:checked ~ #pie3-topl5,
-.pazzle #pie4-pl8:checked ~ #pie4-topl5,
-.pazzle #pie5-pl8:checked ~ #pie5-topl5,
-.pazzle #pie6-pl8:checked ~ #pie6-topl5,
-.pazzle #pie7-pl8:checked ~ #pie7-topl5,
-.pazzle #pie8-pl8:checked ~ #pie8-topl5,
+.pazzle #pie1_pl8:checked ~ #pie1-topl5,
+.pazzle #pie2_pl8:checked ~ #pie2-topl5,
+.pazzle #pie3_pl8:checked ~ #pie3-topl5,
+.pazzle #pie4_pl8:checked ~ #pie4-topl5,
+.pazzle #pie5_pl8:checked ~ #pie5-topl5,
+.pazzle #pie6_pl8:checked ~ #pie6-topl5,
+.pazzle #pie7_pl8:checked ~ #pie7-topl5,
+.pazzle #pie8_pl8:checked ~ #pie8-topl5,
 
-.pazzle #pie1-pl8:checked ~ #pie1-topl7,
-.pazzle #pie2-pl8:checked ~ #pie2-topl7,
-.pazzle #pie3-pl8:checked ~ #pie3-topl7,
-.pazzle #pie4-pl8:checked ~ #pie4-topl7,
-.pazzle #pie5-pl8:checked ~ #pie5-topl7,
-.pazzle #pie6-pl8:checked ~ #pie6-topl7,
-.pazzle #pie7-pl8:checked ~ #pie7-topl7,
-.pazzle #pie8-pl8:checked ~ #pie8-topl7,
+.pazzle #pie1_pl8:checked ~ #pie1-topl7,
+.pazzle #pie2_pl8:checked ~ #pie2-topl7,
+.pazzle #pie3_pl8:checked ~ #pie3-topl7,
+.pazzle #pie4_pl8:checked ~ #pie4-topl7,
+.pazzle #pie5_pl8:checked ~ #pie5-topl7,
+.pazzle #pie6_pl8:checked ~ #pie6-topl7,
+.pazzle #pie7_pl8:checked ~ #pie7-topl7,
+.pazzle #pie8_pl8:checked ~ #pie8-topl7,
 
-.pazzle #pie1-pl8:checked ~ #pie1-topl9,
-.pazzle #pie2-pl8:checked ~ #pie2-topl9,
-.pazzle #pie3-pl8:checked ~ #pie3-topl9,
-.pazzle #pie4-pl8:checked ~ #pie4-topl9,
-.pazzle #pie5-pl8:checked ~ #pie5-topl9,
-.pazzle #pie6-pl8:checked ~ #pie6-topl9,
-.pazzle #pie7-pl8:checked ~ #pie7-topl9,
-.pazzle #pie8-pl8:checked ~ #pie8-topl9,
+.pazzle #pie1_pl8:checked ~ #pie1-topl9,
+.pazzle #pie2_pl8:checked ~ #pie2-topl9,
+.pazzle #pie3_pl8:checked ~ #pie3-topl9,
+.pazzle #pie4_pl8:checked ~ #pie4-topl9,
+.pazzle #pie5_pl8:checked ~ #pie5-topl9,
+.pazzle #pie6_pl8:checked ~ #pie6-topl9,
+.pazzle #pie7_pl8:checked ~ #pie7-topl9,
+.pazzle #pie8_pl8:checked ~ #pie8-topl9,
 
-.pazzle #pie1-pl9:checked ~ #pie1-topl6,
-.pazzle #pie2-pl9:checked ~ #pie2-topl6,
-.pazzle #pie3-pl9:checked ~ #pie3-topl6,
-.pazzle #pie4-pl9:checked ~ #pie4-topl6,
-.pazzle #pie5-pl9:checked ~ #pie5-topl6,
-.pazzle #pie6-pl9:checked ~ #pie6-topl6,
-.pazzle #pie7-pl9:checked ~ #pie7-topl6,
-.pazzle #pie8-pl9:checked ~ #pie8-topl6,
+.pazzle #pie1_pl9:checked ~ #pie1-topl6,
+.pazzle #pie2_pl9:checked ~ #pie2-topl6,
+.pazzle #pie3_pl9:checked ~ #pie3-topl6,
+.pazzle #pie4_pl9:checked ~ #pie4-topl6,
+.pazzle #pie5_pl9:checked ~ #pie5-topl6,
+.pazzle #pie6_pl9:checked ~ #pie6-topl6,
+.pazzle #pie7_pl9:checked ~ #pie7-topl6,
+.pazzle #pie8_pl9:checked ~ #pie8-topl6,
 
-.pazzle #pie1-pl9:checked ~ #pie1-topl8,
-.pazzle #pie2-pl9:checked ~ #pie2-topl8,
-.pazzle #pie3-pl9:checked ~ #pie3-topl8,
-.pazzle #pie4-pl9:checked ~ #pie4-topl8,
-.pazzle #pie5-pl9:checked ~ #pie5-topl8,
-.pazzle #pie6-pl9:checked ~ #pie6-topl8,
-.pazzle #pie7-pl9:checked ~ #pie7-topl8,
-.pazzle #pie8-pl9:checked ~ #pie8-topl8 {
+.pazzle #pie1_pl9:checked ~ #pie1-topl8,
+.pazzle #pie2_pl9:checked ~ #pie2-topl8,
+.pazzle #pie3_pl9:checked ~ #pie3-topl8,
+.pazzle #pie4_pl9:checked ~ #pie4-topl8,
+.pazzle #pie5_pl9:checked ~ #pie5-topl8,
+.pazzle #pie6_pl9:checked ~ #pie6-topl8,
+.pazzle #pie7_pl9:checked ~ #pie7-topl8,
+.pazzle #pie8_pl9:checked ~ #pie8-topl8 {
   display: block;
 }
 
-#pie1-pl1:not(:checked) ~
-#pie2-pl1:not(:checked) ~
-#pie3-pl1:not(:checked) ~
-#pie4-pl1:not(:checked) ~
-#pie5-pl1:not(:checked) ~
-#pie6-pl1:not(:checked) ~
-#pie7-pl1:not(:checked) ~
-#pie8-pl1:not(:checked) ~ [id$="-topl1"],
+#pie1_pl1:not(:checked) ~
+#pie2_pl1:not(:checked) ~
+#pie3_pl1:not(:checked) ~
+#pie4_pl1:not(:checked) ~
+#pie5_pl1:not(:checked) ~
+#pie6_pl1:not(:checked) ~
+#pie7_pl1:not(:checked) ~
+#pie8_pl1:not(:checked) ~ [id$="-topl1"],
 
-#pie1-pl2:not(:checked) ~
-#pie2-pl2:not(:checked) ~
-#pie3-pl2:not(:checked) ~
-#pie4-pl2:not(:checked) ~
-#pie5-pl2:not(:checked) ~
-#pie6-pl2:not(:checked) ~
-#pie7-pl2:not(:checked) ~
-#pie8-pl2:not(:checked) ~ [id$="-topl2"],
+#pie1_pl2:not(:checked) ~
+#pie2_pl2:not(:checked) ~
+#pie3_pl2:not(:checked) ~
+#pie4_pl2:not(:checked) ~
+#pie5_pl2:not(:checked) ~
+#pie6_pl2:not(:checked) ~
+#pie7_pl2:not(:checked) ~
+#pie8_pl2:not(:checked) ~ [id$="-topl2"],
 
-#pie1-pl3:not(:checked) ~
-#pie2-pl3:not(:checked) ~
-#pie3-pl3:not(:checked) ~
-#pie4-pl3:not(:checked) ~
-#pie5-pl3:not(:checked) ~
-#pie6-pl3:not(:checked) ~
-#pie7-pl3:not(:checked) ~
-#pie8-pl3:not(:checked) ~ [id$="-topl3"],
+#pie1_pl3:not(:checked) ~
+#pie2_pl3:not(:checked) ~
+#pie3_pl3:not(:checked) ~
+#pie4_pl3:not(:checked) ~
+#pie5_pl3:not(:checked) ~
+#pie6_pl3:not(:checked) ~
+#pie7_pl3:not(:checked) ~
+#pie8_pl3:not(:checked) ~ [id$="-topl3"],
 
-#pie1-pl4:not(:checked) ~
-#pie2-pl4:not(:checked) ~
-#pie3-pl4:not(:checked) ~
-#pie4-pl4:not(:checked) ~
-#pie5-pl4:not(:checked) ~
-#pie6-pl4:not(:checked) ~
-#pie7-pl4:not(:checked) ~
-#pie8-pl4:not(:checked) ~ [id$="-topl4"],
+#pie1_pl4:not(:checked) ~
+#pie2_pl4:not(:checked) ~
+#pie3_pl4:not(:checked) ~
+#pie4_pl4:not(:checked) ~
+#pie5_pl4:not(:checked) ~
+#pie6_pl4:not(:checked) ~
+#pie7_pl4:not(:checked) ~
+#pie8_pl4:not(:checked) ~ [id$="-topl4"],
 
-#pie1-pl5:not(:checked) ~
-#pie2-pl5:not(:checked) ~
-#pie3-pl5:not(:checked) ~
-#pie4-pl5:not(:checked) ~
-#pie5-pl5:not(:checked) ~
-#pie6-pl5:not(:checked) ~
-#pie7-pl5:not(:checked) ~
-#pie8-pl5:not(:checked) ~ [id$="-topl5"],
+#pie1_pl5:not(:checked) ~
+#pie2_pl5:not(:checked) ~
+#pie3_pl5:not(:checked) ~
+#pie4_pl5:not(:checked) ~
+#pie5_pl5:not(:checked) ~
+#pie6_pl5:not(:checked) ~
+#pie7_pl5:not(:checked) ~
+#pie8_pl5:not(:checked) ~ [id$="-topl5"],
 
-#pie1-pl6:not(:checked) ~
-#pie2-pl6:not(:checked) ~
-#pie3-pl6:not(:checked) ~
-#pie4-pl6:not(:checked) ~
-#pie5-pl6:not(:checked) ~
-#pie6-pl6:not(:checked) ~
-#pie7-pl6:not(:checked) ~
-#pie8-pl6:not(:checked) ~ [id$="-topl6"],
+#pie1_pl6:not(:checked) ~
+#pie2_pl6:not(:checked) ~
+#pie3_pl6:not(:checked) ~
+#pie4_pl6:not(:checked) ~
+#pie5_pl6:not(:checked) ~
+#pie6_pl6:not(:checked) ~
+#pie7_pl6:not(:checked) ~
+#pie8_pl6:not(:checked) ~ [id$="-topl6"],
 
-#pie1-pl7:not(:checked) ~
-#pie2-pl7:not(:checked) ~
-#pie3-pl7:not(:checked) ~
-#pie4-pl7:not(:checked) ~
-#pie5-pl7:not(:checked) ~
-#pie6-pl7:not(:checked) ~
-#pie7-pl7:not(:checked) ~
-#pie8-pl7:not(:checked) ~ [id$="-topl7"],
+#pie1_pl7:not(:checked) ~
+#pie2_pl7:not(:checked) ~
+#pie3_pl7:not(:checked) ~
+#pie4_pl7:not(:checked) ~
+#pie5_pl7:not(:checked) ~
+#pie6_pl7:not(:checked) ~
+#pie7_pl7:not(:checked) ~
+#pie8_pl7:not(:checked) ~ [id$="-topl7"],
 
-#pie1-pl8:not(:checked) ~
-#pie2-pl8:not(:checked) ~
-#pie3-pl8:not(:checked) ~
-#pie4-pl8:not(:checked) ~
-#pie5-pl8:not(:checked) ~
-#pie6-pl8:not(:checked) ~
-#pie7-pl8:not(:checked) ~
-#pie8-pl8:not(:checked) ~ [id$="-topl8"],
+#pie1_pl8:not(:checked) ~
+#pie2_pl8:not(:checked) ~
+#pie3_pl8:not(:checked) ~
+#pie4_pl8:not(:checked) ~
+#pie5_pl8:not(:checked) ~
+#pie6_pl8:not(:checked) ~
+#pie7_pl8:not(:checked) ~
+#pie8_pl8:not(:checked) ~ [id$="-topl8"],
 
-#pie1-pl9:not(:checked) ~
-#pie2-pl9:not(:checked) ~
-#pie3-pl9:not(:checked) ~
-#pie4-pl9:not(:checked) ~
-#pie5-pl9:not(:checked) ~
-#pie6-pl9:not(:checked) ~
-#pie7-pl9:not(:checked) ~
-#pie8-pl9:not(:checked) ~ [id$="-topl9"] {
+#pie1_pl9:not(:checked) ~
+#pie2_pl9:not(:checked) ~
+#pie3_pl9:not(:checked) ~
+#pie4_pl9:not(:checked) ~
+#pie5_pl9:not(:checked) ~
+#pie6_pl9:not(:checked) ~
+#pie7_pl9:not(:checked) ~
+#pie8_pl9:not(:checked) ~ [id$="-topl9"] {
   z-index: 20;
 }
 
@@ -487,14 +489,14 @@
   display: none;
 }
 
-#pie1-pl1:checked ~
-#pie2-pl2:checked ~
-#pie3-pl3:checked ~
-#pie4-pl4:checked ~
-#pie5-pl5:checked ~
-#pie6-pl6:checked ~
-#pie7-pl8:checked ~
-#pie8-pl9:checked ~ #panel-complate {
+#pie1_pl1:checked ~
+#pie2_pl2:checked ~
+#pie3_pl3:checked ~
+#pie4_pl4:checked ~
+#pie5_pl5:checked ~
+#pie6_pl6:checked ~
+#pie7_pl8:checked ~
+#pie8_pl9:checked ~ #panel-complate {
   display: block;
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -505,34 +507,34 @@
   background: url(../images/catch.png);
 }
 
-.pazzle #pie1 {
+.pazzle #pie1- {
   background-position: 0 0;
 }
 
-.pazzle #pie2 {
+.pazzle #pie2- {
   background-position: -150px 0;
 }
 
-.pazzle #pie3 {
+.pazzle #pie3- {
   background-position: -300px 0;
 }
 
-.pazzle #pie4 {
+.pazzle #pie4- {
   background-position: 0 -100px;
 }
 
-.pazzle #pie5 {
+.pazzle #pie5- {
   background-position: -150px -100px;
 }
 
-.pazzle #pie6 {
+.pazzle #pie6- {
   background-position: -300px -100px;
 }
 
-.pazzle #pie7 {
+.pazzle #pie7- {
   background-position: -150px -200px;
 }
 
-.pazzle #pie8 {
+.pazzle #pie8- {
   background-position: -300px -200px;
 }
