@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+/*構成要素-------*/
+
+.test {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #999;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn {
+  display: block;
+  float: left;
+  width: 199px;
+  height: 199px;
+  border: #999 solid;
+  border-width: 0 1px 1px 0;
+  background: #aaa;
+}
+
+/* check1 - 点灯 */
+.flag-1:checked ~  #btn-1,
+.flag-1-r:checked ~ #btn-1,
+.flag-1-b:checked ~ #btn-1,
+
+.flag-2-t:checked ~  #btn-2,
+.flag-2-l:checked ~  #btn-2,
+.flag-2:checked ~  #btn-2,
+.flag-2-r:checked ~ #btn-2,
+.flag-2-b:checked ~ #btn-2,
+
+.flag-3-l:checked ~  #btn-3,
+.flag-3:checked ~  #btn-3,
+.flag-3-b:checked ~ #btn-3,
+
+.flag-4-t:checked ~  #btn-4,
+.flag-4-l:checked ~  #btn-4,
+.flag-4:checked ~  #btn-4,
+.flag-4-r:checked ~ #btn-4,
+.flag-4-b:checked ~ #btn-4,
+
+.flag-5-t:checked ~  #btn-5,
+.flag-5-l:checked ~  #btn-5,
+.flag-5:checked ~  #btn-5,
+.flag-5-r:checked ~ #btn-5,
+.flag-5-b:checked ~ #btn-5,
+
+.flag-6-t:checked ~  #btn-6,
+.flag-6-l:checked ~ #btn-6,
+.flag-6:checked ~  #btn-6,
+.flag-6-r:checked ~ #btn-6,
+.flag-6-b:checked ~ #btn-6,
+
+.flag-7-t:checked ~  #btn-7,
+.flag-7:checked ~  #btn-7,
+.flag-7-r:checked ~ #btn-7,
+
+.flag-8-t:checked ~  #btn-8,
+.flag-8-l:checked ~  #btn-8,
+.flag-8:checked ~  #btn-8,
+.flag-8-r:checked ~ #btn-8,
+.flag-8-b:checked ~  #btn-8,
+
+.flag-9-t:checked ~  #btn-9,
+.flag-9-l:checked ~  #btn-9,
+.flag-9:checked ~  #btn-9
+{
+  background: #eee;
+}
+
+/* check2 - 消灯 */
+.flag-1:checked ~ .flag-1-r:checked ~ #btn-1,
+.flag-1:checked ~ .flag-1-b:checked ~ #btn-1,
+.flag-1-r:checked ~ .flag-1-b:checked ~ #btn-1,
+
+.flag-2-t:checked ~ .flag-2-l:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2-r:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2-l:checked ~ .flag-2:checked ~ #btn-2,
+.flag-2-l:checked ~ .flag-2-r:checked ~ #btn-2,
+.flag-2-l:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2:checked ~ .flag-2-r:checked ~ #btn-2,
+.flag-2:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2-r:checked ~ .flag-2-b:checked ~ #btn-2,
+
+.flag-3-l:checked ~ .flag-3:checked ~ #btn-3,
+.flag-3-l:checked ~ .flag-3-b:checked ~ #btn-3,
+.flag-3:checked ~ .flag-3-b:checked ~ #btn-3,
+
+.flag-4-t:checked ~ .flag-4-l:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4-r:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4-l:checked ~ .flag-4:checked ~ #btn-4,
+.flag-4-l:checked ~ .flag-4-r:checked ~ #btn-4,
+.flag-4-l:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4:checked ~ .flag-4-r:checked ~ #btn-4,
+.flag-4:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4-r:checked ~ .flag-4-b:checked ~ #btn-4,
+
+.flag-5-t:checked ~ .flag-5-l:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5-r:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5-l:checked ~ .flag-5:checked ~ #btn-5,
+.flag-5-l:checked ~ .flag-5-r:checked ~ #btn-5,
+.flag-5-l:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5:checked ~ .flag-5-r:checked ~ #btn-5,
+.flag-5:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5-r:checked ~ .flag-5-b:checked ~ #btn-5,
+
+.flag-6-t:checked ~ .flag-6-l:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6-r:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6-l:checked ~ .flag-6:checked ~ #btn-6,
+.flag-6-l:checked ~ .flag-6-r:checked ~ #btn-6,
+.flag-6-l:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6:checked ~ .flag-6-r:checked ~ #btn-6,
+.flag-6:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6-r:checked ~ .flag-6-b:checked ~ #btn-6,
+
+.flag-7-t:checked ~ .flag-7:checked ~ #btn-7,
+.flag-7-t:checked ~ .flag-7-r:checked ~ #btn-7,
+.flag-7:checked ~ .flag-7-r:checked ~ #btn-7,
+
+.flag-8-t:checked ~ .flag-8-l:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8-r:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8-l:checked ~ .flag-8:checked ~ #btn-8,
+.flag-8-l:checked ~ .flag-8-r:checked ~ #btn-8,
+.flag-8-l:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8:checked ~ .flag-8-r:checked ~ #btn-8,
+.flag-8:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8,
+
+.flag-9-t:checked ~ .flag-9-l:checked ~ #btn-9,
+.flag-9-t:checked ~ .flag-9:checked ~ #btn-9,
+.flag-9-l:checked ~ .flag-9:checked ~ #btn-9
+{
+  background: #aaa;
+}
+
+/* check3 - 点灯 */
+.flag-1:checked ~ .flag-1-r:checked ~ .flag-1-b:checked ~ #btn-1,
+
+.flag-2-t:checked ~ .flag-2-l:checked ~ .flag-2:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2-l:checked ~ .flag-2-r:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2-l:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2:checked ~ .flag-2-r:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2-r:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2-l:checked ~ .flag-2:checked ~ .flag-2-r:checked ~ #btn-2,
+.flag-2-l:checked ~ .flag-2:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2-l:checked ~ .flag-2-r:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2:checked ~ .flag-2-r:checked ~ .flag-2-b:checked ~ #btn-2,
+
+.flag-3-l:checked ~ .flag-3:checked ~ .flag-3-b:checked ~ #btn-3,
+
+.flag-4-t:checked ~ .flag-4-l:checked ~ .flag-4:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4-l:checked ~ .flag-4-r:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4-l:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4:checked ~ .flag-4-r:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4-r:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4-l:checked ~ .flag-4:checked ~ .flag-4-r:checked ~ #btn-4,
+.flag-4-l:checked ~ .flag-4:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4-l:checked ~ .flag-4-r:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4:checked ~ .flag-4-r:checked ~ .flag-4-b:checked ~ #btn-4,
+
+.flag-5-t:checked ~ .flag-5-l:checked ~ .flag-5:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5-l:checked ~ .flag-5-r:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5-l:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5:checked ~ .flag-5-r:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5-r:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5-l:checked ~ .flag-5:checked ~ .flag-5-r:checked ~ #btn-5,
+.flag-5-l:checked ~ .flag-5:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5-l:checked ~ .flag-5-r:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5:checked ~ .flag-5-r:checked ~ .flag-5-b:checked ~ #btn-5,
+
+.flag-6-t:checked ~ .flag-6-l:checked ~ .flag-6:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6-l:checked ~ .flag-6-r:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6-l:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6:checked ~ .flag-6-r:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6-r:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6-l:checked ~ .flag-6:checked ~ .flag-6-r:checked ~ #btn-6,
+.flag-6-l:checked ~ .flag-6:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6-l:checked ~ .flag-6-r:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6:checked ~ .flag-6-r:checked ~ .flag-6-b:checked ~ #btn-6,
+
+.flag-7-t:checked ~ .flag-7:checked ~ .flag-7-r:checked ~ #btn-7,
+
+.flag-8-t:checked ~ .flag-8-l:checked ~ .flag-8:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8-l:checked ~ .flag-8-r:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8-l:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8-l:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ #btn-8,
+.flag-8-l:checked ~ .flag-8:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8-l:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8,
+
+.flag-9-t:checked ~ .flag-9-l:checked ~ .flag-9:checked ~ #btn-9
+{
+  background: #eee;
+}
+
+/* check4 - 消灯 */
+
+.flag-2-t:checked ~ .flag-2-l:checked ~ .flag-2:checked ~ .flag-2-r:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2-l:checked ~ .flag-2:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2-l:checked ~ .flag-2-r:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2-t:checked ~ .flag-2:checked ~ .flag-2-r:checked ~ .flag-2-b:checked ~ #btn-2,
+.flag-2-l:checked ~ .flag-2:checked ~ .flag-2-r:checked ~ .flag-2-b:checked ~ #btn-2,
+
+.flag-4-t:checked ~ .flag-4-l:checked ~ .flag-4:checked ~ .flag-4-r:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4-l:checked ~ .flag-4:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4-l:checked ~ .flag-4-r:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4-t:checked ~ .flag-4:checked ~ .flag-4-r:checked ~ .flag-4-b:checked ~ #btn-4,
+.flag-4-l:checked ~ .flag-4:checked ~ .flag-4-r:checked ~ .flag-4-b:checked ~ #btn-4,
+
+.flag-5-t:checked ~ .flag-5-l:checked ~ .flag-5:checked ~ .flag-5-r:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5-l:checked ~ .flag-5:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5-l:checked ~ .flag-5-r:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5-t:checked ~ .flag-5:checked ~ .flag-5-r:checked ~ .flag-5-b:checked ~ #btn-5,
+.flag-5-l:checked ~ .flag-5:checked ~ .flag-5-r:checked ~ .flag-5-b:checked ~ #btn-5,
+
+.flag-6-t:checked ~ .flag-6-l:checked ~ .flag-6:checked ~ .flag-6-r:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6-l:checked ~ .flag-6:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6-l:checked ~ .flag-6-r:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6-t:checked ~ .flag-6:checked ~ .flag-6-r:checked ~ .flag-6-b:checked ~ #btn-6,
+.flag-6-l:checked ~ .flag-6:checked ~ .flag-6-r:checked ~ .flag-6-b:checked ~ #btn-6,
+
+.flag-8-t:checked ~ .flag-8-l:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8-l:checked ~ .flag-8:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8-l:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8-t:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8,
+.flag-8-l:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8
+{
+  background: #aaa;
+}
+
+/* check5 - 点灯 */
+
+.flag-2-t:checked ~ .flag-2-l:checked ~ .flag-2:checked ~ .flag-2-r:checked ~ .flag-2-b:checked ~ #btn-2,
+
+.flag-4-t:checked ~ .flag-4-l:checked ~ .flag-4:checked ~ .flag-4-r:checked ~ .flag-4-b:checked ~ #btn-4,
+
+.flag-5-t:checked ~ .flag-5-l:checked ~ .flag-5:checked ~ .flag-5-r:checked ~ .flag-5-b:checked ~ #btn-5,
+
+.flag-6-t:checked ~ .flag-6-l:checked ~ .flag-6:checked ~ .flag-6-r:checked ~ .flag-6-b:checked ~ #btn-6,
+
+.flag-8-t:checked ~ .flag-8-l:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8
+
+{
+  background: #eee;
+}
+
+/*ライトアウツで全クリック全点灯の場合の他の解法調べる*/
+
+#complate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  line-height: 600px;
+  z-index: 100;
+  display: none;
+}
+
+.flag-1:checked ~
+.flag-2:checked ~
+.flag-3:checked ~
+.flag-4:checked ~
+.flag-5:checked ~
+.flag-6:checked ~
+.flag-7:checked ~
+.flag-8:checked ~
+.flag-9:checked ~ #complate
+{
+  display: block;
+}
