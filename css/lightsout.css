@@ -19,7 +19,8 @@
 	box-sizing : border-box ;
   border-style: solid;
   border-width: 0 1px 1px 0;
-  background: #aaa;
+  -webkit-transition: background-color 0.2s, border-color 0.2s;
+	transition: background-color 0.2s, border-color 0.2s;
 }
 
 .btn img{
@@ -73,7 +74,7 @@
 .flag-9-l:checked ~  #btn-9,
 .flag-9:checked ~  #btn-9
 {
-  background: #fdfae0;
+  background-color: #fdfae0;
   border-color: #c0b680;
 }
 
@@ -149,7 +150,7 @@
 .flag-9-t:checked ~ .flag-9:checked ~ #btn-9,
 .flag-9-l:checked ~ .flag-9:checked ~ #btn-9
 {
-  background: #aaa;
+  background-color: #aaa;
   border-color: #999;
 }
 
@@ -217,7 +218,7 @@
 
 .flag-9-t:checked ~ .flag-9-l:checked ~ .flag-9:checked ~ #btn-9
 {
-  background: #fdfae0;
+  background-color: #fdfae0;
   border-color: #c0b680;
 }
 
@@ -253,7 +254,7 @@
 .flag-8-t:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8,
 .flag-8-l:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8
 {
-  background: #aaa;
+  background-color: #aaa;
   border-color: #999;
 }
 
@@ -270,7 +271,7 @@
 .flag-8-t:checked ~ .flag-8-l:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8
 
 {
-  background: #fdfae0;
+  background-color: #fdfae0;
   border-color: #c0b680;
 }
 
@@ -289,11 +290,11 @@
 #complate p{
   position: absolute;
   top: 50%;
-  margin-top: -0.5em;
   width: 100%;
   text-align: center;
-  color: #d6771f;
+  color: #2fc2b0;
   font-weight: bold;
+  font-size: 1.8em;
 }
 
 .flag-1:checked ~
