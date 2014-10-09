@@ -278,7 +278,7 @@
 
 /*todo:ライトアウツで全クリック全点灯の場合の他の解法調べる*/
 
-#complate {
+#complete {
   position: absolute;
   top: 0;
   left: 0;
@@ -288,7 +288,7 @@
   z-index: 100;
   display: none;
 }
-#complate p{
+#complete p{
   position: absolute;
   top: 50%;
   width: 100%;
@@ -306,7 +306,7 @@
 .flag-6:checked ~
 .flag-7:checked ~
 .flag-8:checked ~
-.flag-9:checked ~ #complate
+.flag-9:checked ~ #complete
 {
   display: block;
 }
