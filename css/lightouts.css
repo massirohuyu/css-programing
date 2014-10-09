@@ -3,9 +3,9 @@
 /*構成要素-------*/
 
 .test {
-  width: 600px;
+  max-width: 450px;
+  padding: 0 15px;
   margin: 0 auto;
-  background-color: #999;
   position: relative;
   overflow: hidden;
 }
@@ -13,11 +13,17 @@
 .btn {
   display: block;
   float: left;
-  width: 199px;
-  height: 199px;
-  border: #999 solid;
+  width: 33.33%;
+  -webkit-box-sizing : border-box ;
+	-moz-box-sizing : border-box ;
+	box-sizing : border-box ;
+  border-style: solid;
   border-width: 0 1px 1px 0;
   background: #aaa;
+}
+
+.btn img{
+  width: 100%;
 }
 
 /* check1 - 点灯 */
@@ -67,7 +73,8 @@
 .flag-9-l:checked ~  #btn-9,
 .flag-9:checked ~  #btn-9
 {
-  background: #eee;
+  background: #fdfae0;
+  border-color: #c0b680;
 }
 
 /* check2 - 消灯 */
@@ -143,6 +150,7 @@
 .flag-9-l:checked ~ .flag-9:checked ~ #btn-9
 {
   background: #aaa;
+  border-color: #999;
 }
 
 /* check3 - 点灯 */
@@ -209,7 +217,8 @@
 
 .flag-9-t:checked ~ .flag-9-l:checked ~ .flag-9:checked ~ #btn-9
 {
-  background: #eee;
+  background: #fdfae0;
+  border-color: #c0b680;
 }
 
 /* check4 - 消灯 */
@@ -245,6 +254,7 @@
 .flag-8-l:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8
 {
   background: #aaa;
+  border-color: #999;
 }
 
 /* check5 - 点灯 */
@@ -260,10 +270,11 @@
 .flag-8-t:checked ~ .flag-8-l:checked ~ .flag-8:checked ~ .flag-8-r:checked ~ .flag-8-b:checked ~ #btn-8
 
 {
-  background: #eee;
+  background: #fdfae0;
+  border-color: #c0b680;
 }
 
-/*ライトアウツで全クリック全点灯の場合の他の解法調べる*/
+/*todo:ライトアウツで全クリック全点灯の場合の他の解法調べる*/
 
 #complate {
   position: absolute;
@@ -272,10 +283,17 @@
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.7);
-  text-align: center;
-  line-height: 600px;
   z-index: 100;
   display: none;
+}
+#complate p{
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5em;
+  width: 100%;
+  text-align: center;
+  color: #d6771f;
+  font-weight: bold;
 }
 
 .flag-1:checked ~
