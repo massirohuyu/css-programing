@@ -17,7 +17,8 @@
   -webkit-box-sizing : border-box ;
 	-moz-box-sizing : border-box ;
 	box-sizing : border-box ;
-  border-style: solid;
+  background-color: #aaa;
+  border: #999 solid;
   border-width: 0 1px 1px 0;
   -webkit-transition: background-color 0.2s, border-color 0.2s;
 	transition: background-color 0.2s, border-color 0.2s;
